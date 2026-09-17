@@ -3249,6 +3249,7 @@ input, select, textarea {
 			}
 
 		#wrapper.fade-in:before {
+			display: none !important;
 			pointer-events: none;
 			-moz-transition: opacity 1s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out;
@@ -3270,7 +3271,7 @@ input, select, textarea {
 		}
 
 		body.is-preload #wrapper.fade-in:before {
-			opacity: 1;
+			opacity: 0 !important;
 		}
 
 		@media screen and (orientation: portrait) {
@@ -3558,7 +3559,7 @@ input, select, textarea {
 		}
 
 		#header .logo {
-			display: none;
+			display: none !important;
 			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
 			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
 			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
