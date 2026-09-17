@@ -5012,3 +5012,26 @@ input, select, textarea {
 		margin-top: 0 !important;
 	}
 
+
+	/* Restore original footer layout */
+
+	#footer form {
+		width: 100% !important;
+		max-width: none !important;
+	}
+
+	#footer .fields {
+		width: 100% !important;
+	}
+
+	#footer .field {
+		width: 100% !important;
+	}
+
+	#footer input[type="text"],
+	#footer input[type="email"],
+	
+	#footer textarea {
+		width: 100% !important;
+		box-sizing: border-box;
+	}
