@@ -4992,3 +4992,19 @@ input, select, textarea {
 			padding: 1.5rem 1rem 1rem;
 		}
 	}
+
+	/* Remove dark overlay section */
+	#header {
+		display: none !important;
+	}
+	
+	#nav {
+		margin-top: 0 !important;
+	}
+	#intro {
+		padding-bottom: 3rem !important;
+	}
+	#intro + #header {
+		margin-top: 0 !important;
+	}
+
