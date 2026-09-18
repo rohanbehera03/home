@@ -4901,11 +4901,18 @@ input, select, textarea {
 		color: var(--muted);
 		font-size: 0.95rem;
 		line-height: 1.7;
+		margin: 0 0 1rem;
 	}
 
 	#main > .posts > article .image img {
 		border-radius: 18px;
 		border: 1px solid rgba(103, 232, 249, 0.15);
+	}
+
+	#main > .posts > article .image.fit,
+	#main > .posts > article .image.main {
+		margin-top: 1rem;
+		margin-bottom: 0;
 	}
 
 	#main > .posts > article .button {
@@ -5030,7 +5037,7 @@ input, select, textarea {
 
 	#footer input[type="text"],
 	#footer input[type="email"],
-	
+
 	#footer textarea {
 		width: 100% !important;
 		box-sizing: border-box;
